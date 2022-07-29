@@ -1,0 +1,23 @@
+.skillsContent{
+    width: 1422px;
+    height:482px;
+    background-color: #000000;
+
+    
+}
+.skillsItem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+.Item {
+    background-color: aliceblue;
+    width:316px;
+    height:240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}

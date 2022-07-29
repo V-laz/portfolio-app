@@ -1,0 +1,59 @@
+.HeroContent {
+    position: absolute;
+    width: 494px;
+    height: 330px;
+    margin-top: -700px;
+    margin-left: 79px;
+
+
+}
+
+.HeroName {
+    position: absolute;
+    height: 120px;
+    width: 494px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    font-family: 'Merriweather';
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 159%;
+    color: #ffffff;
+
+}
+
+.hetoText {
+    position: absolute;
+    height: 120px;
+    width: 464.36px;
+    left: 0%;
+    right: 6%;
+    top: 130px;
+    color: #ffffff;
+    font-family: 'Inter';
+    font-size: 23px;
+    line-height: 165%;
+    vertical-align: top;
+}
+
+.HeroButton {
+    position: absolute;
+    height: 55px;
+    left: 0%;
+    right: 56%;
+    top: 275px;
+    background-color: #BDAE82;
+    color: #000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: 'Regular';
+    font-size: 20px;
+    line-height: 165%;
+    align-items: center;
+    vertical-align: top;
+
+}
+
+.HeroButton:hover {
+    color: #ffff;
+}

@@ -1,0 +1,15 @@
+.logoimg{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 20px;
+    top: 20px;    
+}
+.sidebarLogo * {
+    fill:#ffffff;
+}
+.sidebarLogo:hover * {
+    fill:#BDAE82
+
+}
+
