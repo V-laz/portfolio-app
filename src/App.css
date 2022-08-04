@@ -1,9 +1,9 @@
 .mainContent {
-  width:1422px;
+  width: 1422px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
-  display:flex;
+  display: flex;
   flex-direction: column;
 
 }

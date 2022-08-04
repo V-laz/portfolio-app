@@ -1,16 +1,14 @@
 .languageChange {
-position: absolute;
-height: 50px;
-left: 93.75%;
-right: 1.39%;
-top: 20px;
-width:70px;
-color:#ffff;
-font-family: 'Inter';
-font-size: 23px;
-line-height: 207%;
-vertical-align:top ;
-text-align: left;
-
-
+    position: absolute;
+    height: 50px;
+    left: 93.75%;
+    right: 1.39%;
+    top: 20px;
+    width: 70px;
+    color: #ffff;
+    font-family: 'Inter';
+    font-size: 23px;
+    line-height: 207%;
+    vertical-align: top;
+    text-align: left;
 }

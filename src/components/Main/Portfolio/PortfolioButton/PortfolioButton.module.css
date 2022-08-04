@@ -1,0 +1,18 @@
+
+.portfolioButton button {
+    width: 220px;
+    height: 55px;
+    margin:3px;
+    background-color:black ;
+    color:#BDAE82;
+    border:1px solid #BDAE82;
+    font-family: 'Inter';
+    font-size: 20px;
+    line-height: 165%;
+    align-items: center;
+    vertical-align: top;
+}
+button:hover {
+   color:#ffffff; 
+
+}

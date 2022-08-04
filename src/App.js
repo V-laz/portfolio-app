@@ -7,21 +7,21 @@ import Video from './components/Main/Video/Video';
 import Contact from './components/Main/Contact/Contact';
 import Profile from './components/Main/Profile/Profile';
 import Skills from './components/Main/Skills/Skills';
-const App = () => {
+
+
+const App = (props) => {
+
+
   return (
-    
-
-      <main className="mainContent">
-        <Header/>
-        <Profile/>
-        <Skills/>
-        <Portfolio/>
-        <Video/>
-        <Price/>
-        <Contact/>
-
-      </main>
-    
+    <main className="mainContent">
+      <Header />
+      <Profile />
+      <Skills />
+      <Portfolio state={props.store.state} />
+      <Video />
+      <Price />
+      <Contact />
+    </main>
   );
 }
 export default App;

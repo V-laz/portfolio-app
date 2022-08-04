@@ -4,10 +4,7 @@
     height: 330px;
     margin-top: -700px;
     margin-left: 79px;
-
-
 }
-
 .HeroName {
     position: absolute;
     height: 120px;
@@ -20,9 +17,7 @@
     font-size: 70px;
     line-height: 159%;
     color: #ffffff;
-
 }
-
 .hetoText {
     position: absolute;
     height: 120px;
@@ -36,7 +31,6 @@
     line-height: 165%;
     vertical-align: top;
 }
-
 .HeroButton {
     position: absolute;
     height: 55px;
@@ -51,9 +45,7 @@
     line-height: 165%;
     align-items: center;
     vertical-align: top;
-
 }
-
 .HeroButton:hover {
     color: #ffff;
 }
