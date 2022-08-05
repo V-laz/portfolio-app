@@ -1,23 +1,50 @@
-import foto1 from './../images/foto/portfolio_0.png';
-import foto2 from './../images/foto/portfolio_1.png';
-import foto3 from './../images/foto/portfolio_2.png';
-import foto4 from './../images/foto/portfolio_3.png';
-import foto5 from './../images/foto/portfolio_4.png';
-import foto6 from './../images/foto/portfolio_5.png';
+
+
 let store = {
     state: {
-        PortfolioFoto: [
-            { src:foto1 },
-            { src:foto2 },,
-            { src:foto3 },,
-            { src:foto4 },,
-            { src:foto5 },,
-            { src:foto6 },,           
-        ], 
+        PortfolioFoto: {
+            autumn:
+            [
+                { src:'src/images/autumn/photo1.avif' },
+                { src:'src/images/autumn/photo2.avif' },
+                { src:'src/images/autumn/photo3.avif' },
+                { src:'src/images/autumn/photo4.avif' },
+                { src:'src/images/autumn/photo5.avif' },
+                { src:'src/images/autumn/photo6.avif' },
+            ],
+            winter:
+            [
+                { src:'src/images/winter/photo1.avif' },
+                { src:'src/images/winter/photo2.avif' },
+                { src:'src/images/winter/photo3.avif' },
+                { src:'src/images/winter/photo4.avif' },
+                { src:'src/images/winter/photo5.avif' },
+                { src:'src/images/winter/photo6.avif' },
+            ],
+            summer:
+            [
+                { src:'src/images/summer/photo1.avif' },
+                { src:'src/images/summer/photo2.avif' },
+                { src:'src/images/summer/photo3.avif' },
+                { src:'src/images/summer/photo4.avif' },
+                { src:'src/images/summer/photo5.avif' },
+                { src:'src/images/summer/photo6.avif' },
+            ],
+            spring:
+            [
+                { src:'src/images/spring/photo1.avif' },
+                { src:'src/images/spring/photo2.avif' },
+                { src:'src/images/spring/photo3.avif' },
+                { src:'src/images/spring/photo4.avif' },
+                { src:'src/images/spring/photo5.avif' },
+                { src:'src/images/spring/photo6.avif' },
+            ],
+        
+        }
     }
-
-
 }
 
+
+export let winter='winter',summer ='summer',autumn='autumn',spring='spring';
 
 export default store;
