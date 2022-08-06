@@ -3,19 +3,16 @@ import styles from './PortfolioButton.module.css';
 
 
 
-const PortfolioButton = (props) => {
-        
-    let setViev =()=>{
-        alert(props.name)
-    }
+const PortfolioButton = ({ name, setView, bottonName }) => {
+
 
     return (
 
         <div className={styles.portfolioButton}>
-            <button onClick={setViev} type={props.name}> {props.name} </button>
+            <button onClick={(() => setView(name))} type={name}> {bottonName} </button>
 
         </div>
-        
+
 
     )
 }
