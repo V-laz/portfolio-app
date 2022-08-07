@@ -1,21 +1,20 @@
-import React, {useState}from "react";
+import React, { useState } from "react";
 import styles from './Video.module.css';
 import SectionTitle from "../../SectionTitle/SectionTitle";
 import VideoPlayer from "./VideoPlayer";
 import VideoButton from "./VideoButton";
 
 const Video = (props) => {
-    const [views,playVideo] =useState('stops')
+    const [play, setPlay] = useState(false)
     return (
         <div className={styles.videoContent}>
             <SectionTitle name="Video" />
             <div ClassName={styles.VideoPlayer}>
 
-                <VideoPlayer view = {views}
-                 VideoPlayerVideoStart={props.state.VideoList.start}
-                 VideoPlayerVideoStop={props.state.VideoList.stop}/>
-                 <VideoButton playVideo={playVideo}name="starts"/>
-                 <VideoButton playVideo={playVideo}name="stops"/>
+                <VideoPlayer play={play}
+                    VideoPlayerVideoStart={props.state.VideoList.start}
+                    VideoPlayerVideoStop={props.state.VideoList.stop} />
+                {!play && <VideoButton setPlay={setPlay} play={play} />}
 
             </div>
         </div>

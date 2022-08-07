@@ -4,10 +4,12 @@ import VideoImg from './../../videos/videoExempl.mp4';
 
 
 
-const VideoPlayer = () => {
- 
+const VideoPlayer = ({ play }) => {
+
     return (
-        <video src={VideoImg} type="video/mp4" className={styles.videoPlayer} controls ></video>     
+        <>
+            {play ? <video src={VideoImg} type="video/mp4" className={styles.videoPlayer} autoPlay controls={play} ></video> : <img src="/" />}
+        </>
     )
 }
 
