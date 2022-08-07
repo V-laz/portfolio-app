@@ -47,7 +47,7 @@ let store = {
             {src:'src/Videos/videoExempl.mp4'},
            ],
            stop: [
-            {src:'src/foto/videoplayer.png'},
+            {src:'src/images/videoplayer.png'},
            ]
             
 
