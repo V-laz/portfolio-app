@@ -1,15 +1,13 @@
 import React from "react";
 import styles from './Video.module.css';
+import VideoImg from './../../videos/videoExempl.mp4';
 
 
 
-const VideoPlayer = ({views,VideoPlayerVideoStop,VideoPlayerVideoStart}) => {
-    const VideoImg = views==="stops"?VideoPlayerVideoStop:
-    VideoPlayerVideoStart;
-
-
+const VideoPlayer = () => {
+ 
     return (
-        <video src={VideoImg} type="video/mp4" className={styles.videoPlayer}  ></video>     
+        <video src={VideoImg} type="video/mp4" className={styles.videoPlayer} controls ></video>     
     )
 }
 
