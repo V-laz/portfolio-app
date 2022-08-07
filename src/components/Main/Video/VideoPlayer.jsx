@@ -3,13 +3,13 @@ import styles from './Video.module.css';
 
 
 
-const VideoPlayer = ({state,view,VideoList}) => {
-    const VideoList = view===stop?VideoListStop:
+const VideoPlayer = ({view,VideoListStop,VideolistStart}) => {
+    const VideoImg = view==="stops"?VideoListStop:
     VideolistStart;
 
 
     return (
-        <video src={state.VideoList.start} type="video/mp4" className={styles.videoPlayer}  ></video>     
+        <video src={VideoImg} type="video/mp4" className={styles.videoPlayer}  ></video>     
     )
 }
 
