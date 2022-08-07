@@ -3,9 +3,9 @@ import styles from './Video.module.css';
 
 
 
-const VideoPlayer = ({view,VideoListStop,VideolistStart}) => {
-    const VideoImg = view==="stops"?VideoListStop:
-    VideolistStart;
+const VideoPlayer = ({views,VideoPlayerVideoStop,VideoPlayerVideoStart}) => {
+    const VideoImg = views==="stops"?VideoPlayerVideoStop:
+    VideoPlayerVideoStart;
 
 
     return (

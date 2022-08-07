@@ -5,13 +5,13 @@ import VideoPlayer from "./VideoPlayer";
 import VideoButton from "./VideoButton";
 
 const Video = (props) => {
-    const [view,playVideo] =useState('stops')
+    const [views,playVideo] =useState('stops')
     return (
         <div className={styles.videoContent}>
             <SectionTitle name="Video" />
             <div ClassName={styles.VideoPlayer}>
 
-                <VideoPlayer view = {view}
+                <VideoPlayer view = {views}
                  VideoPlayerVideoStart={props.state.VideoList.start}
                  VideoPlayerVideoStop={props.state.VideoList.stop}/>
                  <VideoButton playVideo={playVideo}name="starts"/>
