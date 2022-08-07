@@ -18,7 +18,7 @@ const App = (props) => {
       <Profile />
       <Skills />
       <Portfolio state={props.store.state} />
-      <Video />
+      <Video state={props.store.state} />
       <Price />
       <Contact />
     </main>
