@@ -12,6 +12,7 @@ const Video = (props) => {
             <div ClassName={styles.VideoPlayer}>
 
                 <VideoPlayer play={play}
+                    setPlay={setPlay}
                     VideoPlayerVideoStart={props.state.VideoList.start}
                     VideoPlayerVideoStop={props.state.VideoList.stop} />
                 {!play && <VideoButton setPlay={setPlay} play={play} />}

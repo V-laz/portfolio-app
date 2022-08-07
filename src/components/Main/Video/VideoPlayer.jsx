@@ -4,11 +4,11 @@ import VideoImg from './../../videos/videoExempl.mp4';
 
 
 
-const VideoPlayer = ({ play, VideoPlayerVideoStop }) => {
+const VideoPlayer = ({ play, VideoPlayerVideoStop, setPlay }) => {
 
     return (
         <>
-            {play ? <video src={VideoImg} type="video/mp4" className={styles.videoPlayer} autoPlay controls={play} ></video> : <img src={'src/images/spring/photo6.avif'} className={styles.videoPlayer} />}
+            {play ? <video onClick={(() => setPlay(!play))} src={VideoImg} type="video/mp4" className={styles.videoPlayer} autoPlay controls={play} ></video> : <img src={'src/images/spring/photo6.avif'} className={styles.videoPlayer} />}
         </>
     )
 }
