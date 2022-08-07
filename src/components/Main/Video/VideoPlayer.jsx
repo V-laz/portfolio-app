@@ -7,7 +7,7 @@ const VideoPlayer = ({state,view,VideoList}) => {
     const VideoList = view===stop?VideoListStop:
     VideolistStart;
 
-debugger;
+
     return (
         <video src={state.VideoList.start} type="video/mp4" className={styles.videoPlayer}  ></video>     
     )
