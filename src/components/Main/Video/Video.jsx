@@ -13,8 +13,7 @@ const Video = (props) => {
 
                 <VideoPlayer play={play}
                     setPlay={setPlay}
-                    VideoPlayerVideoStart={props.state.VideoList.start}
-                    VideoPlayerVideoStop={props.state.VideoList.stop} />
+ />
                 {!play && <VideoButton setPlay={setPlay} play={play} />}
 
             </div>

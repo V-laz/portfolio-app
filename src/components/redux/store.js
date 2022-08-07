@@ -56,6 +56,6 @@ let store = {
 }
 
 
-export let winter='winter',summer ='summer',autumn='autumn',spring='spring';
+
 
 export default store;
